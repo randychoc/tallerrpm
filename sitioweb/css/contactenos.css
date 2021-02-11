@@ -1,0 +1,22 @@
+.fotosC
+{
+    width: 30px;
+}
+.ubicacionF
+{
+    padding: 10px;
+}
+.red
+{
+    color: red;
+}
+.notificacionSi
+{
+    background-color: #01DF01;
+    padding: 10px; 
+}
+.notificacionNo
+{
+    background-color: #FA5858;
+    padding: 10px; 
+}
