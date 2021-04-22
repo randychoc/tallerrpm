@@ -65,7 +65,8 @@
     <!-- CONTENIDO DE LA PAGINA CONTÁCTENOS -->
     <div class="container text-center">
         <div class="row">
-            <div class="col-sm-12 col-md-5 col-lg-5">
+            <!-- ROW para Redes Sociales -->
+            <div class="col-sm-12 col-md-6">
                 <img src="img/rrss.png" alt="Redes Sociales" width="80px">
                 <h3>Redes Sociales</h3>
                 <br>
@@ -82,114 +83,45 @@
                             <td>+502 3090-5070</td>
                         </tr>
                         <tr>
-                            <th scope="row"><img src="img/gmail.png" class="img-fluid fotosC rounded" alt="Gmail"></th>
+                            <th scope="row"><img src="img/gmail.png" class="img-fluid fotosC rounded" alt="Gmail">
+                            </th>
                             <td>rpmtallergt@gmail.com</td>
                         </tr>
                     </tbody>
                     <th></th>
                 </table>
             </div>
-            <br>
-            <div class="col-sm-12 col-md-7 col-lg-7">
-                <img src="img/ubicacion.png" alt="Ubicación" width="80px">
-                <h3>Ubicación</h3>
-                <p>5ta. Avenida 13-66 zona 3 Ciudad de Guatemala, Guatemala</p>
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!4v1602462765532!6m8!1m7!1sCnwOo7frYdEgJTbBR3YpyQ!2m2!1d14.63681846131324!2d-90.52659413633324!3f340.05760056924095!4f-14.87362736093398!5f0.7820865974627469"
-                    frameborder="0" style="border:0;" allowfullscreen="true" aria-hidden="false" tabindex="0"
-                    class="img-fluid" width="500px"></iframe>
-                <br><br>
-            </div>
-        </div>
-        <br>
-    </div>
-    <div class="container text-center">
-        <div class="row">
-            <div class="col-sm-12 col-md-5 col-lg-5">
-                <img src="img/formulario.png" alt="Formulario" width="80px">
-                <h3>Formulario de Contacto</h3>
+
+            <!-- ROW PARA ENCUESTA-->
+            <div class="col-sm-12 col-md-6">
                 <br>
-                <!-- /index.php -->
-                <form method="POST" action="php/enviar.php" class="needs-validation text-left" novalidate>
-                    <div class="form-row mb-3">
-                        <div class="col">
-                            <label for="validarNombre">Nombre:<span class="red">*</span></label>
-                            <input type="text" class="form-control" id="validarNombre" name="validarNombre" required>
-                        </div>
-                    </div>
-
-                    <div class="form-row mb-3">
-                        <div class="col">
-                            <label for="validarApellido">Apellido:<span class="red">*</span></label>
-                            <input type="text" class="form-control" id="validarApellido" name="validarApellido"
-                                required>
-                        </div>
-                    </div>
-
-                    <div class="form-row mb-3">
-                        <div class="col">
-                            <label for="validarEmail">Correo:<span class="red">*</span></label>
-                            <input type="email" class="form-control" id="validarEmail" name="validarEmail" required>
-                        </div>
-                    </div>
-
-                    <div class="form-row mb-3">
-                        <div class="col">
-                            <label for="validarTelefono">Teléfono:<span class="red">*</span></label>
-                            <input type="number" class="form-control" id="validarTelefono" name="validarTelefono"
-                                max="99999999" required>
-                        </div>
-                    </div>
-
-                    <div class="form-row mb-3">
-                        <div class="col">
-                            <label for="validarTema">Tema:<span class="red">*</span></label>
-                            <select class="custom-select" id="validarTema" name="validarTema" required>
-                                <option selected disabled value="">Selecciona...</option>
-                                <option value="Taller de Motocicletas">Taller de Motocicletas</option>
-                                <option value="Car Wash">Car Wash</option>
-                                <option value="Repuestos">Repuestos</option>
-                                <option value="Sugerencias / Recomendaciones">Sugerencias / Recomendaciones</option>
-                            </select>
-                        </div>
-                    </div>
-
-                    <div class="form-row">
-                        <div class="col mb-3">
-                            <label for="validarAsunto">Asunto:</label>
-                            <input type="text" class="form-control" id="validarAsunto" name="validarAsunto" required>
-                        </div>
-                    </div>
-
-                    <div class="form-group form-row mb-3">
-                        <div class="col">
-                            <label for="validarMensaje">Mensaje:<span class="red">*</span></label>
-                            <textarea class="form-control" id="validarMensaje" name="validarMensaje" rows="3" min="25"
-                                required></textarea>
-                        </div>
-                    </div>
-                    <div class="form-group mb-3 text-center">
-                        <button class="btn btn-success mx-2 px-5" type="submit" name="submit">Enviar</button>
-                        <button class="btn btn-danger mx-2 px-5" type="reset" name="reset">Limpiar</button>
-                    </div>
-
-                </form>
-                <br><br>
-            </div>
-
-            <div class="col-sm-12 col-md-7 col-lg-7">
                 <img src="img/encuesta.png" alt="Encuesta" width="80px">
                 <h3>Su Opinión es Importante</h3>
                 <div class="container text-center">
                     <p> La opinión de nuestros clientes nos anima a seguir adelante con nuestra labor
                         y nos permite prestar un mejor servicio a cada uno de ustedes. </p>
-                </div>
-                <br>                
+                </div>                
                 <a href="https://forms.gle/qdCUDRiCiW7o75F86" target="_blank" class="btn btn-danger" role="button">
-                    Llenar Encuesta </a> 
+                    Llenar Encuesta </a>
+                    <br><br><br>
+            </div>            
+        </div>
+
+        <!-- ROW PARA UBICACIÓN-->
+        <div class="row">            
+            <div class="col-sm-12 col-md-12">
+                <img src="img/ubicacion.png" alt="Ubicación" width="80px">
+                <h3>Ubicación</h3>
+                <p>5ta. Avenida 13-66 zona 3 Ciudad de Guatemala, Guatemala</p>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!4v1602462765532!6m8!1m7!1sCnwOo7frYdEgJTbBR3YpyQ!2m2!1d14.63681846131324!2d-90.52659413633324!3f340.05760056924095!4f-14.87362736093398!5f0.7820865974627469"
+                    frameborder="0" aria-hidden="false" tabindex="0"
+                    height="450px"></iframe>
+                <br><br>
             </div>
         </div>
-        <br><br><br><br>
+
+        <br>
     </div>
 
     <script>
